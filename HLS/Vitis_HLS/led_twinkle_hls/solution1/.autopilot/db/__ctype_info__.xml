@@ -1,0 +1,13 @@
+<InterfaceSummary>
+<RtlPorts>
+<name>led</name>
+<CType>
+<TypeName>void</TypeName>
+<TypeWidth>8</TypeWidth>
+<PhysicalWidth>2</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+</InterfaceSummary>
+

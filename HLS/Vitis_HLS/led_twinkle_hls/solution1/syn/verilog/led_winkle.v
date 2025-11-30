@@ -12,12 +12,7 @@
 module led_winkle (
         ap_clk,
         ap_rst,
-        ap_start,
-        ap_done,
-        ap_idle,
-        ap_ready,
-        led,
-        led_ap_vld
+        led
 );
 
 parameter    ap_ST_fsm_state1 = 3'd1;
@@ -26,26 +21,15 @@ parameter    ap_ST_fsm_state3 = 3'd4;
 
 input   ap_clk;
 input   ap_rst;
-input   ap_start;
-output   ap_done;
-output   ap_idle;
-output   ap_ready;
 output  [1:0] led;
-output   led_ap_vld;
 
-reg ap_done;
-reg ap_idle;
-reg ap_ready;
-reg led_ap_vld;
-
+wire   [25:0] i_1_fu_66_p2;
 (* fsm_encoding = "none" *) reg   [2:0] ap_CS_fsm;
-wire    ap_CS_fsm_state1;
-wire   [25:0] i_1_fu_64_p2;
 wire    ap_CS_fsm_state2;
-reg   [25:0] i_reg_53;
-wire   [0:0] icmp_ln7_fu_70_p2;
-wire   [0:0] icmp_ln8_fu_76_p2;
-wire    ap_CS_fsm_state3;
+reg   [25:0] i_reg_55;
+wire    ap_CS_fsm_state1;
+wire   [0:0] icmp_ln9_fu_72_p2;
+wire   [0:0] icmp_ln10_fu_78_p2;
 reg   [2:0] ap_NS_fsm;
 wire    ap_ce_reg;
 
@@ -63,56 +47,20 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((icmp_ln7_fu_70_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state2))) begin
-        i_reg_53 <= i_1_fu_64_p2;
-    end else if (((ap_start == 1'b1) & (1'b1 == ap_CS_fsm_state1))) begin
-        i_reg_53 <= 26'd0;
-    end
-end
-
-always @ (*) begin
-    if ((1'b1 == ap_CS_fsm_state3)) begin
-        ap_done = 1'b1;
-    end else begin
-        ap_done = 1'b0;
-    end
-end
-
-always @ (*) begin
-    if (((ap_start == 1'b0) & (1'b1 == ap_CS_fsm_state1))) begin
-        ap_idle = 1'b1;
-    end else begin
-        ap_idle = 1'b0;
-    end
-end
-
-always @ (*) begin
-    if ((1'b1 == ap_CS_fsm_state3)) begin
-        ap_ready = 1'b1;
-    end else begin
-        ap_ready = 1'b0;
-    end
-end
-
-always @ (*) begin
-    if (((icmp_ln7_fu_70_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state2))) begin
-        led_ap_vld = 1'b1;
-    end else begin
-        led_ap_vld = 1'b0;
+    if (((icmp_ln9_fu_72_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state2))) begin
+        i_reg_55 <= i_1_fu_66_p2;
+    end else if ((1'b1 == ap_CS_fsm_state1)) begin
+        i_reg_55 <= 26'd0;
     end
 end
 
 always @ (*) begin
     case (ap_CS_fsm)
         ap_ST_fsm_state1 : begin
-            if (((ap_start == 1'b1) & (1'b1 == ap_CS_fsm_state1))) begin
-                ap_NS_fsm = ap_ST_fsm_state2;
-            end else begin
-                ap_NS_fsm = ap_ST_fsm_state1;
-            end
+            ap_NS_fsm = ap_ST_fsm_state2;
         end
         ap_ST_fsm_state2 : begin
-            if (((icmp_ln7_fu_70_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state2))) begin
+            if (((icmp_ln9_fu_72_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state2))) begin
                 ap_NS_fsm = ap_ST_fsm_state2;
             end else begin
                 ap_NS_fsm = ap_ST_fsm_state3;
@@ -131,14 +79,12 @@ assign ap_CS_fsm_state1 = ap_CS_fsm[32'd0];
 
 assign ap_CS_fsm_state2 = ap_CS_fsm[32'd1];
 
-assign ap_CS_fsm_state3 = ap_CS_fsm[32'd2];
+assign i_1_fu_66_p2 = (i_reg_55 + 26'd1);
 
-assign i_1_fu_64_p2 = (i_reg_53 + 26'd1);
+assign icmp_ln10_fu_78_p2 = ((i_reg_55 < 26'd25000000) ? 1'b1 : 1'b0);
 
-assign icmp_ln7_fu_70_p2 = ((i_reg_53 == 26'd50000000) ? 1'b1 : 1'b0);
+assign icmp_ln9_fu_72_p2 = ((i_reg_55 == 26'd50000000) ? 1'b1 : 1'b0);
 
-assign icmp_ln8_fu_76_p2 = ((i_reg_53 < 26'd25000000) ? 1'b1 : 1'b0);
-
-assign led = ((icmp_ln8_fu_76_p2[0:0] == 1'b1) ? 2'd1 : 2'd2);
+assign led = ((icmp_ln10_fu_78_p2[0:0] == 1'b1) ? 2'd1 : 2'd2);
 
 endmodule //led_winkle

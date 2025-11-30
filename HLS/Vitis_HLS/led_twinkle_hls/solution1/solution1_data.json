@@ -5,7 +5,7 @@
   "RtlSubPrefix": "led_winkle_",
   "SourceLanguage": "cpp",
   "HostMachineBits": "64",
-  "FunctionProtocol": "ap_ctrl_hs",
+  "FunctionProtocol": "ap_ctrl_none",
   "ResetStyle": "control",
   "Target": {
     "Family": "zynq",
@@ -19,26 +19,20 @@
       "direction": "out",
       "srcType": "ap_uint<2>*",
       "srcSize": "8",
-      "hwRefs": [
-        {
+      "hwRefs": [{
           "type": "port",
           "interface": "led",
           "name": "led",
           "usage": "data",
           "direction": "out"
-        },
-        {
-          "type": "port",
-          "interface": "led_ap_vld",
-          "name": "led_ap_vld",
-          "usage": "control",
-          "direction": "out"
-        }
-      ]
+        }]
     }},
   "HlsSolution": {
     "FlowTarget": "vivado",
-    "DirectiveTcl": ["set_directive_top led_winkle -name led_winkle"],
+    "DirectiveTcl": [
+      "set_directive_top led_winkle -name led_winkle",
+      "set_directive_top led_winkle -name led_winkle"
+    ],
     "ProfileOption": "0",
     "ProfileType": "none",
     "KernelName": "led_winkle"
@@ -87,23 +81,6 @@
       "portMap": {"ap_clk": "CLK"},
       "ports": ["ap_clk"]
     },
-    "ap_ctrl": {
-      "type": "ap_ctrl",
-      "busTypeName": "acc_handshake",
-      "mode": "slave",
-      "portMap": {
-        "ap_start": "start",
-        "ap_done": "done",
-        "ap_idle": "idle",
-        "ap_ready": "ready"
-      },
-      "ports": [
-        "ap_done",
-        "ap_idle",
-        "ap_ready",
-        "ap_start"
-      ]
-    },
     "ap_rst": {
       "type": "reset",
       "busTypeName": "reset",
@@ -136,35 +113,15 @@
       "dir": "in",
       "width": "1"
     },
-    "ap_start": {
-      "dir": "in",
-      "width": "1"
-    },
-    "ap_done": {
-      "dir": "out",
-      "width": "1"
-    },
-    "ap_idle": {
-      "dir": "out",
-      "width": "1"
-    },
-    "ap_ready": {
-      "dir": "out",
-      "width": "1"
-    },
     "led": {
       "dir": "out",
       "width": "2"
-    },
-    "led_ap_vld": {
-      "dir": "out",
-      "width": "1"
     }
   },
   "ModuleInfo": {
     "Hierarchy": {"ModuleName": "led_winkle"},
     "Info": {"led_winkle": {
-        "FunctionProtocol": "ap_ctrl_hs",
+        "FunctionProtocol": "ap_ctrl_none",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
@@ -185,7 +142,7 @@
           "Estimate": "3.449"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_7_1",
+            "Name": "VITIS_LOOP_9_1",
             "TripCount": "50000000",
             "Latency": "50000000",
             "PipelineII": "1",
@@ -213,7 +170,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2025-11-29 23:14:08 +0800",
+    "Time": "2025-11-30 21:21:59 +0800",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

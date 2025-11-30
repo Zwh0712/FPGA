@@ -1,5 +1,5 @@
 <root versionMajor = "1" versionMinor = "5">
-  <kernel src_name="led_winkle" language="c" hwCtrl="ap_ctrl_hs" mem_layout="fpga64-xilinx-none">
+  <kernel src_name="led_winkle" language="c" hwCtrl="ap_ctrl_none" mem_layout="fpga64-xilinx-none">
     <args>
       <arg id="0" access_type="w" src_name="led" src_type="ap_uint&lt;2&gt;*" src_isptr="1" src_bitwidth="8" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="led" hw_bitwidth="2" hw_size_or_depth="1">

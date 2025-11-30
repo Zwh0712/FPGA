@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'led_winkle'" level="0">
-<item name = "Date">Sat Nov 29 23:14:05 2025
+<item name = "Date">Sun Nov 30 21:21:58 2025
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
 <item name = "Project">led_twinkle_hls</item>
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_7_1">50000000, 50000000, 1, 1, 1, 50000000, yes</column>
+<column name="- VITIS_LOOP_9_1">50000000, 50000000, 1, 1, 1, 50000000, yes</column>
 </table>
 </item>
 </section>

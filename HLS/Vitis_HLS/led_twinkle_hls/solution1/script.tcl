@@ -9,8 +9,10 @@ add_files led_twinkle_hls/src/led_winkle.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xc7z010clg400-1}
 create_clock -period 10 -name default
-#source "./led_twinkle_hls/solution1/directives.tcl"
+config_export -format ip_catalog -rtl verilog
+set_clock_uncertainty 2.7
+source "./led_twinkle_hls/solution1/directives.tcl"
 #csim_design
 csynth_design
 #cosim_design
-export_design -format ip_catalog
+export_design -rtl verilog -format ip_catalog

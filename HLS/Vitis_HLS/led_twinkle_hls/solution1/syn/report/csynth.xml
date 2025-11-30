@@ -29,13 +29,13 @@
             <Interval-max>50000003</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfLoopLatency>
-            <VITIS_LOOP_7_1>
+            <VITIS_LOOP_9_1>
                 <TripCount>50000000</TripCount>
                 <Latency>50000000</Latency>
                 <AbsoluteTimeLatency>500000000</AbsoluteTimeLatency>
                 <PipelineII>1</PipelineII>
                 <PipelineDepth>1</PipelineDepth>
-            </VITIS_LOOP_7_1>
+            </VITIS_LOOP_9_1>
         </SummaryOfLoopLatency>
     </PerformanceEstimates>
     <AreaEstimates>
@@ -60,7 +60,7 @@
             <Object>led_winkle</Object>
             <Type>return value</Type>
             <Scope/>
-            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOProtocol>ap_ctrl_none</IOProtocol>
             <IOConfig/>
             <Dir>in</Dir>
             <Bits>1</Bits>
@@ -71,53 +71,9 @@
             <Object>led_winkle</Object>
             <Type>return value</Type>
             <Scope/>
-            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOProtocol>ap_ctrl_none</IOProtocol>
             <IOConfig/>
             <Dir>in</Dir>
-            <Bits>1</Bits>
-            <Attribute>control</Attribute>
-        </RtlPorts>
-        <RtlPorts>
-            <name>ap_start</name>
-            <Object>led_winkle</Object>
-            <Type>return value</Type>
-            <Scope/>
-            <IOProtocol>ap_ctrl_hs</IOProtocol>
-            <IOConfig/>
-            <Dir>in</Dir>
-            <Bits>1</Bits>
-            <Attribute>control</Attribute>
-        </RtlPorts>
-        <RtlPorts>
-            <name>ap_done</name>
-            <Object>led_winkle</Object>
-            <Type>return value</Type>
-            <Scope/>
-            <IOProtocol>ap_ctrl_hs</IOProtocol>
-            <IOConfig/>
-            <Dir>out</Dir>
-            <Bits>1</Bits>
-            <Attribute>control</Attribute>
-        </RtlPorts>
-        <RtlPorts>
-            <name>ap_idle</name>
-            <Object>led_winkle</Object>
-            <Type>return value</Type>
-            <Scope/>
-            <IOProtocol>ap_ctrl_hs</IOProtocol>
-            <IOConfig/>
-            <Dir>out</Dir>
-            <Bits>1</Bits>
-            <Attribute>control</Attribute>
-        </RtlPorts>
-        <RtlPorts>
-            <name>ap_ready</name>
-            <Object>led_winkle</Object>
-            <Type>return value</Type>
-            <Scope/>
-            <IOProtocol>ap_ctrl_hs</IOProtocol>
-            <IOConfig/>
-            <Dir>out</Dir>
             <Bits>1</Bits>
             <Attribute>control</Attribute>
         </RtlPorts>
@@ -126,23 +82,11 @@
             <Object>led</Object>
             <Type>pointer</Type>
             <Scope/>
-            <IOProtocol>ap_vld</IOProtocol>
+            <IOProtocol>ap_none</IOProtocol>
             <IOConfig/>
             <Dir>out</Dir>
             <Bits>2</Bits>
             <Attribute>data</Attribute>
-            <CType>int</CType>
-        </RtlPorts>
-        <RtlPorts>
-            <name>led_ap_vld</name>
-            <Object>led</Object>
-            <Type>pointer</Type>
-            <Scope/>
-            <IOProtocol>ap_vld</IOProtocol>
-            <IOConfig/>
-            <Dir>out</Dir>
-            <Bits>1</Bits>
-            <Attribute>control</Attribute>
             <CType>int</CType>
         </RtlPorts>
     </InterfaceSummary>
@@ -171,14 +115,14 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_7_1>
-                        <Name>VITIS_LOOP_7_1</Name>
+                    <VITIS_LOOP_9_1>
+                        <Name>VITIS_LOOP_9_1</Name>
                         <TripCount>50000000</TripCount>
                         <Latency>50000000</Latency>
                         <AbsoluteTimeLatency>0.500 sec</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
                         <PipelineDepth>1</PipelineDepth>
-                    </VITIS_LOOP_7_1>
+                    </VITIS_LOOP_9_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -206,7 +150,7 @@
                     <Object>led_winkle</Object>
                     <Type>return value</Type>
                     <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOProtocol>ap_ctrl_none</IOProtocol>
                     <IOConfig/>
                     <Dir>in</Dir>
                     <Bits>1</Bits>
@@ -217,53 +161,9 @@
                     <Object>led_winkle</Object>
                     <Type>return value</Type>
                     <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOProtocol>ap_ctrl_none</IOProtocol>
                     <IOConfig/>
                     <Dir>in</Dir>
-                    <Bits>1</Bits>
-                    <Attribute>control</Attribute>
-                </RtlPorts>
-                <RtlPorts>
-                    <name>ap_start</name>
-                    <Object>led_winkle</Object>
-                    <Type>return value</Type>
-                    <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
-                    <IOConfig/>
-                    <Dir>in</Dir>
-                    <Bits>1</Bits>
-                    <Attribute>control</Attribute>
-                </RtlPorts>
-                <RtlPorts>
-                    <name>ap_done</name>
-                    <Object>led_winkle</Object>
-                    <Type>return value</Type>
-                    <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
-                    <IOConfig/>
-                    <Dir>out</Dir>
-                    <Bits>1</Bits>
-                    <Attribute>control</Attribute>
-                </RtlPorts>
-                <RtlPorts>
-                    <name>ap_idle</name>
-                    <Object>led_winkle</Object>
-                    <Type>return value</Type>
-                    <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
-                    <IOConfig/>
-                    <Dir>out</Dir>
-                    <Bits>1</Bits>
-                    <Attribute>control</Attribute>
-                </RtlPorts>
-                <RtlPorts>
-                    <name>ap_ready</name>
-                    <Object>led_winkle</Object>
-                    <Type>return value</Type>
-                    <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
-                    <IOConfig/>
-                    <Dir>out</Dir>
                     <Bits>1</Bits>
                     <Attribute>control</Attribute>
                 </RtlPorts>
@@ -272,23 +172,11 @@
                     <Object>led</Object>
                     <Type>pointer</Type>
                     <Scope/>
-                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOProtocol>ap_none</IOProtocol>
                     <IOConfig/>
                     <Dir>out</Dir>
                     <Bits>2</Bits>
                     <Attribute>data</Attribute>
-                    <CType>int</CType>
-                </RtlPorts>
-                <RtlPorts>
-                    <name>led_ap_vld</name>
-                    <Object>led</Object>
-                    <Type>pointer</Type>
-                    <Scope/>
-                    <IOProtocol>ap_vld</IOProtocol>
-                    <IOConfig/>
-                    <Dir>out</Dir>
-                    <Bits>1</Bits>
-                    <Attribute>control</Attribute>
                     <CType>int</CType>
                 </RtlPorts>
             </InterfaceSummary>
@@ -299,7 +187,6 @@
         <Arg ArgName="led" index="0" direction="out" srcType="ap_uint&lt;2&gt;*" srcSize="8">
             <hwRefs>
                 <hwRef type="port" interface="led" name="led" usage="data" direction="out"/>
-                <hwRef type="port" interface="led_ap_vld" name="led_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
     </Args>
@@ -313,20 +200,6 @@
             </portMaps>
             <ports>
                 <port>ap_clk</port>
-            </ports>
-        </Interface>
-        <Interface InterfaceName="ap_ctrl" type="ap_ctrl" busTypeName="acc_handshake" mode="slave">
-            <portMaps>
-                <portMap portMapName="ap_start">start</portMap>
-                <portMap portMapName="ap_done">done</portMap>
-                <portMap portMapName="ap_idle">idle</portMap>
-                <portMap portMapName="ap_ready">ready</portMap>
-            </portMaps>
-            <ports>
-                <port>ap_done</port>
-                <port>ap_idle</port>
-                <port>ap_ready</port>
-                <port>ap_start</port>
             </ports>
         </Interface>
         <Interface InterfaceName="ap_rst" type="reset" busTypeName="reset" mode="slave">
@@ -365,7 +238,7 @@
                     <keys size="3">Interface, Type, Ports</keys>
                     <column name="ap_clk">clock, ap_clk</column>
                     <column name="ap_rst">reset, ap_rst</column>
-                    <column name="ap_ctrl">ap_ctrl_hs, ap_done ap_idle ap_ready ap_start</column>
+                    <column name="ap_ctrl">ap_ctrl_none</column>
                 </table>
             </item>
         </section>
@@ -382,7 +255,6 @@
                 <table isCollapsed="1">
                     <keys size="3">Argument, HW Name, HW Type</keys>
                     <column name="led">led, port</column>
-                    <column name="led">led_ap_vld, port</column>
                 </table>
             </item>
         </section>

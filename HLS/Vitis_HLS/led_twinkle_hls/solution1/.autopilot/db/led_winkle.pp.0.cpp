@@ -5584,8 +5584,10 @@ __attribute__((sdx_kernel("led_winkle", 0))) void led_winkle(ap_uint<2>*led){
 #pragma HLS TOP name=led_winkle
 # 5 "led_twinkle_hls/src/led_winkle.cpp"
 
+#pragma HLS INTERFACE ap_none port=led
+#pragma HLS INTERFACE ap_ctrl_none port=return
  int i = 0;
- VITIS_LOOP_7_1: for(i=0; i < 50000000 ; i++){
+ VITIS_LOOP_9_1: for(i=0; i < 50000000 ; i++){
   if(i < 50000000/2)
       *led = 1;
   else

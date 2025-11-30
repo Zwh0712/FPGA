@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" top="led_winkle" name="led_twinkle_hls">
+<project xmlns="com.autoesl.autopilot.project" name="led_twinkle_hls" top="led_winkle">
     <includePaths/>
     <libraryPaths/>
     <Simulation>

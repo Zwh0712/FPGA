@@ -1,6 +1,7 @@
 {"sourceFile": [{
       "name": "",
-      "directive": [{
+      "directive": [
+        {
           "functionName": "led_winkle",
           "label": "",
           "functionLabel": "",
@@ -11,5 +12,18 @@
                 "value": "led_winkle"
               }]
           }
-        }]
+        },
+        {
+          "functionName": "led_winkle",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "led_winkle"
+              }]
+          }
+        }
+      ]
     }]}

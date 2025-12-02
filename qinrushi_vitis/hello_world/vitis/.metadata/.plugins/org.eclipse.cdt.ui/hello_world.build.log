@@ -1,0 +1,10 @@
+15:56:18 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+15:56:22 Build Finished (took 3s.716ms)
+

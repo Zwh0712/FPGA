@@ -57,3 +57,10 @@ con
 
 15:58:17 INFO  : Launch script is exported to file 'D:\FPGA\FPGA\qinrushi_vitis\hello_world\vitis\hello_world_system\_ide\scripts\debugger_hello_world-default.tcl'
 16:21:07 INFO  : Disconnected from the channel tcfchan#2.
+15:15:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\FPGA\FPGA\qinrushi_vitis\hello_world\vitis\temp_xsdb_launch_script.tcl
+15:15:43 INFO  : XSCT server has started successfully.
+15:15:43 INFO  : Successfully done setting XSCT server connection channel  
+15:15:43 INFO  : plnx-install-location is set to ''
+15:15:43 INFO  : Successfully done setting workspace for the tool. 
+15:15:51 INFO  : Platform repository initialization has completed.
+15:15:51 INFO  : Registering command handlers for Vitis TCF services

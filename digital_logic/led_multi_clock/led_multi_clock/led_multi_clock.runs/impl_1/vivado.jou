@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec  9 21:37:48 2025
+# Process ID: 24580
+# Current directory: D:/FPGA/FPGA/digital_logic/led_multi_clock/led_multi_clock/led_multi_clock.runs/impl_1
+# Command line: vivado.exe -log led_multi_clock.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source led_multi_clock.tcl -notrace
+# Log file: D:/FPGA/FPGA/digital_logic/led_multi_clock/led_multi_clock/led_multi_clock.runs/impl_1/led_multi_clock.vdi
+# Journal file: D:/FPGA/FPGA/digital_logic/led_multi_clock/led_multi_clock/led_multi_clock.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source led_multi_clock.tcl -notrace

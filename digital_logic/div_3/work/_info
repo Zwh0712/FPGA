@@ -1,0 +1,67 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/fpga/FPGA project/uart_loopback/sim
+T_opt
+!s110 1765269282
+V2;LfXEn8M=2bLhZ]Y2R^n3
+04 7 4 work tb_div3 fast 0
+=1-04bf1b8d1ce5-6937df1d-2de-a34c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+R0
+vdiv_3
+Z2 !s110 1765269498
+!i10b 1
+!s100 25bl6URZaCN?2J<RLRMEF2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8EP9ol<hB?X0Z8FzkC6S_0
+Z4 dD:/FPGA/FPGA/digital_logic/div_3
+w1765267179
+8D:/FPGA/FPGA/digital_logic/div_3/div3_old.v
+FD:/FPGA/FPGA/digital_logic/div_3/div3_old.v
+!i122 3
+L0 1 46
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1765269498.000000
+!s107 D:/FPGA/FPGA/digital_logic/div_3/div3_old.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA/FPGA/digital_logic/div_3/div3_old.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_div3
+R2
+!i10b 1
+!s100 9`124@b3[U]c9H`4`oS_R0
+R3
+I;:>HU1TiGR<z9@GEk7Oz02
+R4
+w1765267152
+8D:/FPGA/FPGA/digital_logic/div_3/div3_tb.v
+FD:/FPGA/FPGA/digital_logic/div_3/div3_tb.v
+!i122 2
+L0 3 64
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/FPGA/FPGA/digital_logic/div_3/div3_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA/FPGA/digital_logic/div_3/div3_tb.v|
+!i113 0
+R8
+R1

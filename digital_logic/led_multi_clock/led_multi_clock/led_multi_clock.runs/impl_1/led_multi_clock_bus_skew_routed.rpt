@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Dec  9 21:38:23 2025
+| Host         : zhaowenheng running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file led_multi_clock_bus_skew_routed.rpt -pb led_multi_clock_bus_skew_routed.pb -rpx led_multi_clock_bus_skew_routed.rpx
+| Design       : led_multi_clock
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

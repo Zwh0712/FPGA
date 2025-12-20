@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Dec 19 22:02:48 2025
+# Process ID: 67472
+# Current directory: D:/FPGA/FPGA/digital_logic/ov7670_VGA/ov7670_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent70540 D:\FPGA\FPGA\digital_logic\ov7670_VGA\ov7670_VGA\ov7670_VGA.xpr
+# Log file: D:/FPGA/FPGA/digital_logic/ov7670_VGA/ov7670_VGA/vivado.log
+# Journal file: D:/FPGA/FPGA/digital_logic/ov7670_VGA/ov7670_VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/FPGA/digital_logic/ov7670_VGA/ov7670_VGA/ov7670_VGA.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/FPGA/digital_logic/ov7670_VGA/ov7670_VGA/ov7670_VGA.srcs/sources_1/bd/ov7670_capture/ov7670_capture.bd}
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+validate_bd_design
+save_bd_design

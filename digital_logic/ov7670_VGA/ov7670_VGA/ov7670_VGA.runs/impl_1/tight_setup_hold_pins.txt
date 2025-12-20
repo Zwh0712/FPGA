@@ -1,0 +1,43 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/n1d_1_reg[2]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/n1d_1_reg[3]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/n1d_1_reg[1]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/n1d_1_reg[2]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/n1d_1_reg[1]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/n1d_1_reg[3]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[7]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[5]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[1]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[7]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[4]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                     ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pC0_1_reg/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[6]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[3]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[2]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                     ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pC1_1_reg/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[2]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[3]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[4]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                    ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pVde_1_reg/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[0]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[2]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[3]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[0]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[6]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/n1d_1_reg[3]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[4]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/n1d_1_reg[2]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[6]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/n1d_1_reg[0]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[1]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/n1d_1_reg[0]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[5]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/n1d_1_reg[0]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/pDataOut_1_reg[7]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[1]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[2].DataEncoder/pDataOut_1_reg[0]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                                  ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[1].DataEncoder/n1d_1_reg[1]/D|
+| clk_out1_ov7670_capture_clk_wiz_0_0 |               clk_fpga_0 |                             ov7670_capture_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOut_1_reg[5]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

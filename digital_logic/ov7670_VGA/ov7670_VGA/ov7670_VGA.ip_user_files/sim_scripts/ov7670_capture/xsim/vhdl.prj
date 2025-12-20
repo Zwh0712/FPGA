@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../bd/ov7670_capture/ip/ov7670_capture_v_tc_0_0/sim/ov7670_capture_v_tc_0_0.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/ClockGen.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/SyncAsync.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/SyncAsyncReset.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/DVI_Constants.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/OutputSERDES.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/TMDS_Encoder.vhd" \
+"../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d57c/src/rgb2dvi.vhd" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_rgb2dvi_0_0/sim/ov7670_capture_rgb2dvi_0_0.vhd" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_rst_ps7_0_100M_0/sim/ov7670_capture_rst_ps7_0_100M_0.vhd" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axi_vdma_0_3/sim/ov7670_capture_axi_vdma_0_3.vhd" \
+
+nosort

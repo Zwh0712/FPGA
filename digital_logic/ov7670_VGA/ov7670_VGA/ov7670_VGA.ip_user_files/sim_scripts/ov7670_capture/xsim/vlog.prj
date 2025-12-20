@@ -1,0 +1,23 @@
+verilog xil_defaultlib --include "D:/xilinx_down/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/ec67/hdl" --include "../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/34f8/hdl" --include "../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/d0f7" --include "../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/7860/hdl" --include "../../../../ov7670_VGA.gen/sources_1/bd/ov7670_capture/ipshared/8713/hdl" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_processing_system7_0_0/sim/ov7670_capture_processing_system7_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_v_axi4s_vid_out_0_0/sim/ov7670_capture_v_axi4s_vid_out_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_clk_wiz_0_0/ov7670_capture_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_clk_wiz_0_0/ov7670_capture_clk_wiz_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_xbar_0/sim/ov7670_capture_xbar_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_ov7670_driver_0_0/sim/ov7670_capture_ov7670_driver_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tdata_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tuser_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tstrb_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tkeep_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tid_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tdest_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/tlast_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/hdl/top_ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_axis_subset_converter_0_0/sim/ov7670_capture_axis_subset_converter_0_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_auto_pc_0/sim/ov7670_capture_auto_pc_0.v" \
+"../../../bd/ov7670_capture/ip/ov7670_capture_auto_pc_1/sim/ov7670_capture_auto_pc_1.v" \
+"../../../bd/ov7670_capture/sim/ov7670_capture.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

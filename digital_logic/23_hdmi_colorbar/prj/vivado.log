@@ -1,0 +1,365 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jan  6 15:40:54 2025
+# Process ID: 26116
+# Current directory: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23944 H:\linghangzhe\正点原子领航者(V2)ZYNQ开发板资料盘(A盘)\【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)\4_Source_Code\1_FPGA_Design\ZYNQ_7010_FPGA\ZYNQ_7010_FPGA\23_hdmi_colorbar\prj\hdmi_color.xpr
+# Log file: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/vivado.log
+# Journal file: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj'
+INFO: [Project 1-313] Project file moved from 'K:/7010/23_hdmi_colorbar/prj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/vivado2/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:38 . Memory (MB): peak = 997.391 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  6 15:53:49 2025...
+led to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  6 15:53:43 2025...
+ [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 997.391 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Mon Jan  6 15:45:57 2025] Launched synth_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Mon Jan  6 15:46:06 2025] Launched synth_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1/runme.log
+[Mon Jan  6 15:46:06 2025] Launched impl_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan  6 15:46:13 2025] Launched synth_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1/runme.log
+[Mon Jan  6 15:46:13 2025] Launched impl_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/impl_1/runme.log
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan  6 15:49:14 2025] Launched synth_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1/runme.log
+[Mon Jan  6 15:49:14 2025] Launched impl_1...
+Run output will be captured here: H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/impl_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'G:/vivado2/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hdmi_colorbar_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_hdmi_colorbar_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/asyn_rst_syn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module asyn_rst_syn
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/dvi_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dvi_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/dvi_transmitter_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dvi_transmitter_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/hdmi_colorbar_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_colorbar_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/serializer_10_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module serializer_10_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/video_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/video_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/sim/tb_hdmi_colorbar_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hdmi_colorbar_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.sim/sim_1/behav/xsim'
+ERROR: [Common 17-145] codecvt to wstring conversion failed '1'
+ERROR: [Common 17-145] codecvt to wstring conversion failed '1'
+"xelab -wto 11eca4628a804144ad38b6a480c15992 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_colorbar_top_behav xil_defaultlib.tb_hdmi_colorbar_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: G:/vivado2/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 11eca4628a804144ad38b6a480c15992 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_hdmi_colorbar_top_behav xil_defaultlib.tb_hdmi_colorbar_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=22.5,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.video_driver
+Compiling module xil_defaultlib.video_display
+Compiling module xil_defaultlib.asyn_rst_syn
+Compiling module xil_defaultlib.dvi_encoder
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.serializer_10_to_1
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="TMDS_33")
+Compiling module xil_defaultlib.dvi_transmitter_top
+Compiling module xil_defaultlib.hdmi_colorbar_top
+Compiling module xil_defaultlib.tb_hdmi_colorbar_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_hdmi_colorbar_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 2431.297 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:23 . Memory (MB): peak = 2431.297 ; gain = 0.000
+ERROR: [Common 17-145] codecvt to wstring conversion failed '1'
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8 -scripts_only
+close_hw_manager
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8 -scripts_only
+close_project
+open_project H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/vivado2/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2451.703 ; gain = 10.695
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8 -scripts_only
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2451.703 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/hdmi_color.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan  6 16:10:40 2025] Launched synth_1...
+Run output will be captured here: H:/fpga/led/prj/led.runs/impl_1/synth_1/runme.log
+[Mon Jan  6 16:10:40 2025] Launched impl_1...
+Run output will be captured here: H:/fpga/led/prj/led.runs/impl_1/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Jan  6 16:12:33 2025] Launched synth_1...
+Run output will be captured here: H:/fpga/led/prj/led.runs/impl_1/synth_1/runme.log
+[Mon Jan  6 16:12:33 2025] Launched impl_1...
+Run output will be captured here: H:/fpga/led/prj/led.runs/impl_1/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: hdmi_colorbar_top
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3032.355 ; gain = 260.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hdmi_colorbar_top' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/hdmi_colorbar_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/.Xil/Vivado-26176-zhaowenheng/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/prj/.Xil/Vivado-26176-zhaowenheng/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'video_driver' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/video_driver.v:24]
+	Parameter H_SYNC bound to: 11'b00000101000 
+	Parameter H_BACK bound to: 11'b00011011100 
+	Parameter H_DISP bound to: 11'b10100000000 
+	Parameter H_FRONT bound to: 11'b00001101110 
+	Parameter H_TOTAL bound to: 11'b11001110010 
+	Parameter V_SYNC bound to: 11'b00000000101 
+	Parameter V_BACK bound to: 11'b00000010100 
+	Parameter V_DISP bound to: 11'b01011010000 
+	Parameter V_FRONT bound to: 11'b00000000101 
+	Parameter V_TOTAL bound to: 11'b01011101110 
+INFO: [Synth 8-6155] done synthesizing module 'video_driver' (2#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/video_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'video_display' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/video_display.v:23]
+	Parameter H_DISP bound to: 11'b10100000000 
+	Parameter V_DISP bound to: 11'b01011010000 
+	Parameter WHITE bound to: 24'b111111111111111111111111 
+	Parameter BLACK bound to: 24'b000000000000000000000000 
+	Parameter RED bound to: 24'b111111110000110000000000 
+	Parameter GREEN bound to: 24'b000000001111111100000000 
+	Parameter BLUE bound to: 24'b000000000000000011111111 
+INFO: [Synth 8-6155] done synthesizing module 'video_display' (3#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/video_display.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dvi_transmitter_top' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/dvi_transmitter_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'asyn_rst_syn' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/asyn_rst_syn.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'asyn_rst_syn' (4#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/asyn_rst_syn.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dvi_encoder' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/dvi_encoder.v:21]
+	Parameter CTRLTOKEN0 bound to: 10'b1101010100 
+	Parameter CTRLTOKEN1 bound to: 10'b0010101011 
+	Parameter CTRLTOKEN2 bound to: 10'b0101010100 
+	Parameter CTRLTOKEN3 bound to: 10'b1010101011 
+INFO: [Synth 8-6155] done synthesizing module 'dvi_encoder' (5#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/dvi_encoder.v:21]
+INFO: [Synth 8-6157] synthesizing module 'serializer_10_to_1' [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/serializer_10_to_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [G:/vivado2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (6#1) [G:/vivado2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [G:/vivado2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (6#1) [G:/vivado2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+INFO: [Synth 8-6155] done synthesizing module 'serializer_10_to_1' (7#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/serializer_10_to_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [G:/vivado2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (8#1) [G:/vivado2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+INFO: [Synth 8-6155] done synthesizing module 'dvi_transmitter_top' (9#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/dvi_transmitter_top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_colorbar_top' (10#1) [H:/linghangzhe/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/【新资料-Vivado_2020.2-持续更新中】正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/4_Source_Code/1_FPGA_Design/ZYNQ_7010_FPGA/ZYNQ_7010_FPGA/23_hdmi_colorbar/rtl/hdmi_colorbar_top.v:23]
